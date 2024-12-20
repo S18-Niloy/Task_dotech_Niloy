@@ -1,4 +1,4 @@
-# Queue Using Two Stacks
+# 1. Queue Using Two Stacks
 
 This project demonstrates how to implement a **Queue** using two **Stacks**, leveraging the LIFO (Last In First Out) nature of stacks to emulate the FIFO (First In First Out) behavior of a queue.
 
