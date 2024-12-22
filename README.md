@@ -43,6 +43,7 @@ run the project
    ```bash
    python manage.py shell
    ```
+   shell:
    ```python
    from app_name.models import Category, Product
    
@@ -57,6 +58,9 @@ run the project
    # Add products for Books
    for _ in range(20):  # 20 products
        Product.objects.create(title="Book", price=425.00, category=books)
+   ```
+   ```
+   exit()
    ```
    ```bash
    python manage.py runserver
