@@ -35,4 +35,6 @@ Below is a visual representation of the process:
 - Pop from `stack2`: [3, 2] (Dequeued element: 1)
 
 # 3. Signature App
+This Django web application allows users to upload two images of signatures and compares the text extracted from them using Tesseract OCR. The application checks if the extracted texts match, indicating whether the signatures are identical.
+
 [Link to the repository](https://github.com/S18-Niloy/SignatureApp)
