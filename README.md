@@ -34,7 +34,7 @@ Below is a visual representation of the process:
 #### Dequeue:
 - Pop from `stack2`: [3, 2] (Dequeued element: 1)
 
-# Django Model Query
+# 2. Django Model Query
 
 run the project
 
