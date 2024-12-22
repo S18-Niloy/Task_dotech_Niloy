@@ -34,6 +34,35 @@ Below is a visual representation of the process:
 #### Dequeue:
 - Pop from `stack2`: [3, 2] (Dequeued element: 1)
 
+# Django Model Query
+
+run the project
+
+1. Open a terminal and enter the Django shell:
+
+   ```bash
+   python manage.py shell
+   ```
+   ```python
+   from app_name.models import Category, Product
+   
+   # Create categories
+   electronics = Category.objects.create(name="Electronics")
+   books = Category.objects.create(name="Books")
+   
+   # Add products for Electronics
+   for _ in range(10):  # 10 products
+       Product.objects.create(title="Electronic Product", price=1200.05, category=electronics)
+   
+   # Add products for Books
+   for _ in range(20):  # 20 products
+       Product.objects.create(title="Book", price=425.00, category=books)
+   ```
+   ```bash
+   python manage.py runserver
+   ```
+   Output Sample:
+   ![Upload Example](assets/upload.png)
 # 3. Signature App
 This Django web application allows users to upload two images of signatures and compares the text extracted from them using Tesseract OCR. The application checks if the extracted texts match, indicating whether the signatures are identical.
 
