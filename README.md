@@ -62,6 +62,7 @@ run the project
    ```
    exit()
    ```
+   shell stops
    ```bash
    python manage.py runserver
    ```
